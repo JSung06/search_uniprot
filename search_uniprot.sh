@@ -1,5 +1,6 @@
 #!/bin/bash
 
+current_dir="$pwd"
 output_dir="./results"
 
 # Check for the correct number of command line arguments
@@ -21,6 +22,10 @@ fi
 if [ ! -f "$text_file" ]; then
     printf "Input text file '$text_file' does not exist.\n"
     exit 1
+fi
+
+if [ ! -d "$output_dir" ]; then
+    mkdir "$output_dir"
 fi
 
 # Read the strings from the text file into an array
