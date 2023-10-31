@@ -1,7 +1,7 @@
 #!/bin/bash
 
 current_dir="$pwd"
-output_dir="./results"
+output_dir="$pwd/results"
 
 # Check for the correct number of command line arguments
 if [ "$#" -ne 2 ]; then
