@@ -5,7 +5,7 @@
 
 
 ### OUTPUT:
-- The results of each ID will be stored in `./results/[Uniprot ID].txt`
+- The results of each ID will be stored in `./results/[Uniprot ID].txt` (c.f. `uniprot_id_example.txt`)
 - Non matching IDs will be listed in `./results/non_matching.txt`
 
 ### N.B.:
